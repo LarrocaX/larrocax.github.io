@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.list{
+    font-size: 1.5rem;
+    color: rgb(0, 89, 255);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 200ms;
+}
+.list:hover{
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    transition: 200ms;
+}
