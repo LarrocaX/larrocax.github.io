@@ -7,7 +7,7 @@ function getInputValue(){
     
  
 
-if(inputVal.includes('http')){
+if(inputVal.includes('https://')){
     document.getElementById('if').src= inputVal;
 }
 else {
