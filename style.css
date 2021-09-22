@@ -1,33 +1,71 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 body{
-    text-align: center;
+  text-align: center;
 }
 h1{
-    padding-top: 20px;
+  padding-top: 20px;
 }
 ul{
-    list-style: none;
+  list-style: none;
 }
 a{
-    text-decoration: none;
-    
+  text-decoration: none;
+  
 }
 
 .list{
-    font-size: 1.5rem;
-    color: rgb(0, 89, 255);
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 200ms;
+  font-size: 1.5rem;
+  color: rgb(0, 89, 255);
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 200ms;
 }
 .list:hover{
-    background-color: rgb(230, 230, 230);
-    padding: 10px;
-    transition: 200ms;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  transition: 200ms;
 }
+.bdark {
+  color: #333;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+body.dark{
+    background-color: #333;
+    color: white;
+}
+.dark .bdark{
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+}
+.dark .list{
+  font-size: 1.5rem;
+  color: rgb(255, 102, 0);
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 200ms;
+}
+.dark .list:hover{
+  background-color: rgb(27, 27, 27);
+  padding: 10px;
+  transition: 200ms;
+}
+
+
+
+
+
