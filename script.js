@@ -33,4 +33,4 @@ function txtdark(){
     document.getElementById("bdark").innerHTML = "DARK MODE";
 }
 }
-window.location.href = "https://larrocax.github.io/puko-games"
+
